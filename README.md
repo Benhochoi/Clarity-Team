@@ -57,7 +57,7 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 | Công Nghệ | Phiên Bản | Mục Đích |
 |-----------|-----------|----------|
 | **C++** |[5.11] | Ngôn ngữ lập trình chính |
-| **STL** | Standard Library | Containers (vector, string), I/O streams |
+| **STL** | Standard Library | Các bộ chứa (vector, string), Luồng Nhập/Xuất |
 | **CSV Format** | UTF-8 | Lưu trữ dữ liệu persistent |
 
 **Thư Viện Standard Sử Dụng:**
