@@ -360,7 +360,7 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 | [Hoàng Thị Hiếu] | [@hoanghieu-101](https://github.com/hoanghieu-101) | Dev|
 | [Nguyễn Quỳnh Anh] | [@dinhquynhanh0711-ux](https://github.com/username) |Dev |
 
-### Tài lệu tham khảo
+### Tài liệu tham khảo
 
 - [C++ Reference](https://en.cppreference.com/)
 - [STL Documentation](https://www.cplusplus.com/reference/stl/)
