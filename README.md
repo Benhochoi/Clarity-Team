@@ -42,15 +42,15 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 
 ## 📑 MỤC LỤC
 
-- [MÔ TẢ DỰ ÁN](#-MÔ-TẢ-DỰ-ÁN)
+- [MÔ TẢ DỰ ÁN](#-mô-tả-dự-án)
 - [TECH STACK](#-Tech-Stack)
-- [CÀI ĐẶT](#-CÀI-ĐẶT--THIẾT-LẬP)
-- [HƯỚNG DẤN SỬ DỤNG](#-hướng-dẫn-sử-dụng)
+- [CÀI ĐẶT](#-cài-đặt--thiết-lập)
+- [HƯỚNG DẪN SỬ DỤNG](#-hướng-dẫn-sử-dụng)
 - [KIẾN TRÚC DỰ ÁN](#-kiến-trúc-dự-án)
 - [KIỂM THỬ](#-kiểm-thử)
 - [ĐÓNG GÓP](#-đóng-góp)
-- [Credits](#-credits)
-- [License](#-license)
+- [CREDITS](#-credits)
+- [LICENSE](#-license)
 
 ## 🛠️ TECH STACK
 
@@ -315,7 +315,7 @@ HD001,KH001,20/01/2026,1,2,SP001|Sua TH|10|8000|10400|0;SP002|Banh mi|5|5000|650
   - Không sửa/xóa được hóa đơn đã thanh toán
 - [ ] **Thống kê**: Doanh thu theo ngày, tổng hợp
 
-### Test Case VÍ DỤ
+### VÍ DỤ KIỂM THỬ
 ```cpp
 // Test: Không xóa được NCC có hàng hóa liên quan
 1. Thêm NCC: NCC001
@@ -349,7 +349,7 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 - **Indentation**: 4 spaces
 - **Commit messages**: Theo [Conventional Commits](https://www.conventionalcommits.org/)
 
-## 👥 Thành viên
+## 👥 CREDITS
 
 ### Thành vên phát triển
 
@@ -372,7 +372,7 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 - Cộng đồng C++ Vietnam
 - Stack Overflow contributors
 
-## 📄 License
+## 📄 LICENSE
 Dự án này được phân phối dưới giấy phép **MIT License**.
 ```
 Copyright (c) 2026 Clarity Team
