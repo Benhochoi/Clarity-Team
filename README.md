@@ -374,6 +374,7 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 - Stack Overflow contributors
 
 ## 📄 License
+Dự án này được phân phối dưới giấy phép **MIT License**.
 ```
 Copyright (c) 2026 Clarity Team
 Permission is hereby granted, free of charge, to any person obtaining a copy
