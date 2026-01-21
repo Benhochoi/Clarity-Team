@@ -126,7 +126,7 @@ hoadon.txt         # Dữ liệu hóa đơn
 
 ## 📖 Hướng Dẫn Sử Dụng
 
-### Đăng Nhập Hệ Thống
+### Đăng nhập hệ thống
 ```
 DANG NHAP HE THONG QUAN LY
 Nhap mat khau (Lan thu 1/3): admin123
@@ -135,7 +135,7 @@ Nhap mat khau (Lan thu 1/3): admin123
 
 💡 **Lưu ý**: Bạn có 3 lần thử nhập mật khẩu. Sau đó chương trình tự động thoát.
 
-### MENU CHÍNH
+### Menu chính
 ```
 =====================================================
                  HE THONG QUAN LY                    
