@@ -1,9 +1,10 @@
 # 🏪 Hệ Thống Quản Lý Siêu Thị
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![License](https://img.shields.io/badge/license-[MIT]-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
 
-## 📋 Mô Tả Dự Án
+## 📋 Mô Tả Dự Án  
 
 Hệ thống quản lý siêu thị là một ứng dụng console được phát triển bằng C++, cung cấp giải pháp toàn diện cho việc quản lý các hoạt động kinh doanh bán lẻ. Dự án áp dụng các nguyên lý lập trình hướng đối tượng (OOP) với kiến trúc class rõ ràng, hệ thống kế thừa đa cấp và quản lý dữ liệu persistent thông qua file CSV.
 
@@ -373,11 +374,25 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 - Stack Overflow contributors
 
 ## 📄 License
-
-Dự án này không có giấy phép.
 ```
 Copyright (c) 2026 Clarity Team
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE
 ```
 
 ---
