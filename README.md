@@ -1,13 +1,13 @@
-# 🏪 Hệ Thống Quản Lý Siêu Thị
+# 🏪 HỆ THỐNG QUẢN LÝ SIÊU THỊ
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
-## 📋 Mô Tả Dự Án  
+## 📋 MÔ TẢ DỰ ÁN  
 
 Hệ thống quản lý siêu thị là một ứng dụng console được phát triển bằng C++, cung cấp giải pháp toàn diện cho việc quản lý các hoạt động kinh doanh bán lẻ. Dự án áp dụng các nguyên lý lập trình hướng đối tượng (OOP) với kiến trúc class rõ ràng, hệ thống kế thừa đa cấp và quản lý dữ liệu persistent thông qua file CSV.
 
-### ✨ Tính Năng Chính
+### ✨ TÍNH NĂNG CHÍNH
 
 - **👥 Quản lý Khách hàng**: CRUD đầy đủ với validation dữ liệu (SĐT, địa chỉ)
 - **👨‍💼 Quản lý Nhân viên**: Hồ sơ chi tiết (tuổi 18-100, email, chức vụ, lương theo giờ)
@@ -16,21 +16,21 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 - **🧾 Quản lý Hóa đơn**: Tạo đơn hàng, áp dụng giảm giá, thanh toán tự động trừ kho
 - **📊 Thống kê & Báo cáo**: Doanh thu theo ngày, phân tích tồn kho, báo cáo tổng hợp
 
-### 🎯 Lý Do Lựa Chọn Công Nghệ
+### 🎯 LÝ DO LỰA CHỌN CÔNG NGHỆ
 
 - **C++ Standard Library**: Hiệu năng cao, quản lý bộ nhớ tối ưu cho ứng dụng desktop
 - **STL Containers (vector)**: Quản lý danh sách động hiệu quả
 - **File I/O Streams**: Lưu trữ dữ liệu persistent dạng CSV, dễ migration sang database
 - **OOP Design**: Tính kế thừa (class `Nguoi`), đa hình, encapsulation cho maintainability
 
-### 🚧 Thách Thức Đã Gặp
+### 🚧 THÁCH THỨC ĐÃ GẶP
 
 1. **Quản lý quan hệ dữ liệu**: Đảm bảo tính toàn vẹn khi xóa (foreign key constraints thủ công)
 2. **Validation phức tạp**: Xử lý input với nhiều ràng buộc (email, SĐT, ngày tháng, tuổi)
 3. **Đồng bộ file**: Cập nhật đồng thời nhiều file CSV khi thao tác liên quan (hóa đơn ↔ kho)
 4. **UX Console**: Thiết kế menu trực quan, xử lý lỗi nhập liệu gracefully
 
-### 🔮 Hướng Phát Triển Tương Lai
+### 🔮 HƯỚNG PHÁT TRIỂN TƯƠNG LAI
 
 - [ ] **Database Migration**: Chuyển từ CSV sang SQLite/MySQL cho ACID compliance
 - [ ] **GUI Application**: Phát triển giao diện đồ họa (Qt/wxWidgets)
@@ -40,27 +40,27 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 - [ ] **Export Reports**: Xuất báo cáo PDF/Excel
 - [ ] **Network Sync**: Đồng bộ dữ liệu đa chi nhánh
 
-## 📑 Mục Lục
+## 📑 MỤC LỤC
 
-- [Mô Tả Dự Án](#-mô-tả-dự-án)
-- [Tech Stack](#-Tech-Stack)
-- [Cài Đặt](#-cài-đặt--thiết-lập)
-- [Hướng Dẫn Sử Dụng](#-hướng-dẫn-sử-dụng)
-- [Kiến Trúc Dự Án](#-kiến-trúc-dự-án)
-- [Testing](#-testing)
-- [Đóng Góp](#-đóng-góp)
+- [MÔ TẢ DỰ ÁN](#-MÔ-TẢ-DỰ-ÁN)
+- [TECH STACK](#-Tech-Stack)
+- [CÀI ĐẶT](#-CÀI-ĐẶT--THIẾT-LẬP)
+- [HƯỚNG DẤN SỬ DỤNG](#-hướng-dẫn-sử-dụng)
+- [KIẾN TRÚC DỰ ÁN](#-kiến-trúc-dự-án)
+- [KIỂM THỬ](#-kiểm-thử)
+- [ĐÓNG GÓP](#-đóng-góp)
 - [Credits](#-credits)
 - [License](#-license)
 
-## 🛠️ Tech Stack
+## 🛠️ TECH STACK
 
-| Công Nghệ | Phiên Bản | Mục Đích |
+| Công nghệ | Phiên bản | Mục đích |
 |-----------|-----------|----------|
 | **C++** |[5.11] | Ngôn ngữ lập trình chính |
 | **STL** | Standard Library | Các bộ chứa (vector, string), Luồng Nhập/Xuất |
 | **CSV Format** | UTF-8 | Lưu trữ dữ liệu persistent |
 
-**Thư Viện Standard Sử Dụng:**
+**Thư Viện Standard sử dụng:**
 - `<iostream>` - Nhập/Xuất dữ liệu (Input/Output).
 - `<fstream>` - Xử lý tệp tin (Đọc và ghi file).
 - `<sstream>` - Phân tích cú pháp chuỗi (String parsing).
@@ -69,9 +69,9 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 - `<cstdio>` - Xử lý định dạng kiểu C (Thường dùng để kiểm tra tính hợp lệ của ngày tháng qua `sscanf`,`sprintf`).
 - `<cctype>` - Xử lý ký tự (Ví dụ: kiểm tra chữ số `isdigit`, chuyển đổi chữ hoa `toupper`).
 
-## 🚀 Cài Đặt & Thiết Lập
+## 🚀 CÀI ĐẶT & THIẾT LẬP
 
-### Yêu Cầu Hệ Thống
+### YÊU CẦU HỆ THỐNG
 
 - **Trình biên dịch C++**: GCC 5.0+, Clang 3.5+, MSVC 2015+
 - **Hệ điều hành**: Windows, Linux, macOS
@@ -83,7 +83,7 @@ git clone https://github.com/Benhochoi/Clarity-Team.git
 cd Clarity-Team
 ```
 
-### Biên Dịch Dự Án
+### BIÊN DỊCH DỰ ÁN
 
 **Trên Linux/macOS:**
 ```bash
@@ -108,7 +108,7 @@ QuanLySieuThi.exe
 3. Build → `Ctrl+Shift+B`
 4. Run → `Ctrl+F5`
 
-### Cấu Hình Ban Đầu
+### CẤU HÌNH BAN ĐẦU
 
 **Thay đổi mật khẩu mặc định** (trong source code):
 ```cpp
@@ -135,7 +135,7 @@ Nhap mat khau (Lan thu 1/3): admin123
 
 💡 **Lưu ý**: Bạn có 3 lần thử nhập mật khẩu. Sau đó chương trình tự động thoát.
 
-### Menu Chính
+### MENU CHÍNH
 ```
 =====================================================
                  HE THONG QUAN LY                    
@@ -150,16 +150,16 @@ Nhap mat khau (Lan thu 1/3): admin123
 -----------------------------------------------------
 ```
 
-### Quy Trình Làm Việc Đề Xuất
+### QUY TRÌNH LÀM VIỆC ĐỀ XUẤT
 
-#### 1️⃣ **Thiết Lập Ban Đầu**
+#### 1️⃣ **Thiết lập ban đầu**
 ```
 Menu [2] → Thêm nhân viên
 Menu [3] → Thêm nhà cung cấp
 Menu [3] → Nhập giao dịch hàng hóa từ NCC
 ```
 
-#### 2️⃣ **Hoạt Động Hàng Ngày**
+#### 2️⃣ **Hoạt động hàng ngày**
 ```
 Menu [1] → Thêm khách hàng mới (nếu cần)
 Menu [5] → Tạo hóa đơn
@@ -168,22 +168,22 @@ Menu [5] → Tạo hóa đơn
 Menu [5] → Thanh toán (tự động trừ kho)
 ```
 
-#### 3️⃣ **Quản Lý Kho**
+#### 3️⃣ **Quản lý kho**
 ```
 Menu [4] → Cập nhật số lượng từ NCC
 Menu [4] → Kiểm tra hàng sắp hết (option 10)
 Menu [3] → Tính tổng giá trị hàng theo NCC (option 7)
 ```
 
-#### 4️⃣ **Thống Kê Cuối Ngày**
+#### 4️⃣ **Thống kê cuối ngày**
 ```
 Menu [6] → Thống kê doanh thu theo ngày
 Menu [6] → Xem số hóa đơn trong ngày
 ```
 
-### Ví Dụ Sử Dụng
+### VÍ DỤ SỬ DỤNG
 
-**Thêm Hàng Hóa Từ Nhà Cung Cấp:**
+**Thêm hàng hóa từ nhà cung cấp:**
 ```
 Chon chuc nang: 3
 Chon: 1  # Hiển thị danh sách NCC
@@ -203,7 +203,7 @@ Mat hang thu 1:
 >>> Tong gia tri hang hoa nay cho NCC NCC001: 800000 VND
 ```
 
-**Tạo Hóa Đơn:**
+**Tạo hoá đơn:**
 ```
 Chon chuc nang: 5
 Chon: 2  # Thêm hóa đơn
@@ -234,7 +234,7 @@ Luu hoa don? (y/n): y
 * Da luu hoa don.
 ```
 
-## 🏗️ Kiến Trúc Dự Án
+## 🏗️ KIẾN TRÚC DỰ ÁN
 
 ### Class Diagram
 ```
@@ -262,7 +262,7 @@ QuanLy (Main Controller)
   └── vector<HoaDon>
 ```
 
-### Định Dạng File CSV
+### ĐỊNH DẠNG FILE TXT
 
 **khachhang.txt:**
 ```csv
@@ -288,7 +288,7 @@ MaHD,MaKH,NgayLap,DaThanhToan,SoLuongMatHang,ChiTiet
 HD001,KH001,20/01/2026,1,2,SP001|Sua TH|10|8000|10400|0;SP002|Banh mi|5|5000|6500|10
 ```
 
-### Validation Rules
+### QUY TẮC XÁC THỰC
 
 | Trường | Ràng Buộc |
 |--------|-----------|
@@ -300,7 +300,7 @@ HD001,KH001,20/01/2026,1,2,SP001|Sua TH|10|8000|10400|0;SP002|Banh mi|5|5000|650
 | **Giá bán** | = Đơn giá × 1.3 (auto) |
 | **Mức giảm giá** | 0% ≤ giảm ≤ 100% |
 
-## 🧪 Testing
+## 🧪 KIỂM THỬ
 
 ### Manual Testing Checklist
 
@@ -315,7 +315,7 @@ HD001,KH001,20/01/2026,1,2,SP001|Sua TH|10|8000|10400|0;SP002|Banh mi|5|5000|650
   - Không sửa/xóa được hóa đơn đã thanh toán
 - [ ] **Thống kê**: Doanh thu theo ngày, tổng hợp
 
-### Test Case Ví Dụ
+### Test Case VÍ DỤ
 ```cpp
 // Test: Không xóa được NCC có hàng hóa liên quan
 1. Thêm NCC: NCC001
@@ -323,7 +323,7 @@ HD001,KH001,20/01/2026,1,2,SP001|Sua TH|10|8000|10400|0;SP002|Banh mi|5|5000|650
 3. Xóa NCC001 → Expected: "? Khong the xoa nha cung cap vi co hang hoa lien quan."
 ```
 
-## 🤝 Đóng Góp
+## 🤝 ĐÓNG GÓP
 
 Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước sau:
 
@@ -349,9 +349,9 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 - **Indentation**: 4 spaces
 - **Commit messages**: Theo [Conventional Commits](https://www.conventionalcommits.org/)
 
-## 👥 Credits
+## 👥 Thành viên
 
-### Thành Viên Phát Triển
+### Thành vên phát triển
 
 | Tên | GitHub | Role |
 |-----|--------|------|
@@ -360,13 +360,13 @@ Mọi đóng góp đều được chào đón! Vui lòng làm theo các bước 
 | [Hoàng Thị Hiếu] | [@hoanghieu-101](https://github.com/hoanghieu-101) | Dev|
 | [Nguyễn Quỳnh Anh] | [@dinhquynhanh0711-ux](https://github.com/username) |Dev |
 
-### Tài Liệu Tham Khảo
+### Tài lệu tham khảo
 
 - [C++ Reference](https://en.cppreference.com/)
 - [STL Documentation](https://www.cplusplus.com/reference/stl/)
 - [Design Patterns in C++](https://refactoring.guru/design-patterns/cpp)
 
-### Lời Cảm Ơn
+### Lời cảm ơn
 
 - Giảng viên hướng dẫn: Ths Lê Văn Hùng
 - Cộng đồng C++ Vietnam
