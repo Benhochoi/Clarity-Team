@@ -3,6 +3,19 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
+
+## 📑 MỤC LỤC
+
+- [MÔ TẢ DỰ ÁN](#-mô-tả-dự-án)
+- [TECH STACK](#-Tech-Stack)
+- [CÀI ĐẶT](#-cài-đặt--thiết-lập)
+- [HƯỚNG DẪN SỬ DỤNG](#-hướng-dẫn-sử-dụng)
+- [KIẾN TRÚC DỰ ÁN](#-kiến-trúc-dự-án)
+- [KIỂM THỬ](#-kiểm-thử)
+- [ĐÓNG GÓP](#-đóng-góp)
+- [CREDITS](#-credits)
+- [LICENSE](#-license)
+- 
 ## 📋 MÔ TẢ DỰ ÁN  
 
 Hệ thống quản lý siêu thị là một ứng dụng console được phát triển bằng C++, cung cấp giải pháp toàn diện cho việc quản lý các hoạt động kinh doanh bán lẻ. Dự án áp dụng các nguyên lý lập trình hướng đối tượng (OOP) với kiến trúc class rõ ràng, hệ thống kế thừa đa cấp và quản lý dữ liệu persistent thông qua file CSV.
@@ -39,18 +52,6 @@ Hệ thống quản lý siêu thị là một ứng dụng console được phá
 - [ ] **Barcode Scanner Integration**: Tích hợp quét mã vạch cho hóa đơn
 - [ ] **Export Reports**: Xuất báo cáo PDF/Excel
 - [ ] **Network Sync**: Đồng bộ dữ liệu đa chi nhánh
-
-## 📑 MỤC LỤC
-
-- [MÔ TẢ DỰ ÁN](#-mô-tả-dự-án)
-- [TECH STACK](#-Tech-Stack)
-- [CÀI ĐẶT](#-cài-đặt--thiết-lập)
-- [HƯỚNG DẪN SỬ DỤNG](#-hướng-dẫn-sử-dụng)
-- [KIẾN TRÚC DỰ ÁN](#-kiến-trúc-dự-án)
-- [KIỂM THỬ](#-kiểm-thử)
-- [ĐÓNG GÓP](#-đóng-góp)
-- [CREDITS](#-credits)
-- [LICENSE](#-license)
 
 ## 🛠️ TECH STACK
 
