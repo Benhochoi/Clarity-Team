@@ -15,7 +15,7 @@
 - [ĐÓNG GÓP](#-đóng-góp)
 - [CREDITS](#-credits)
 - [LICENSE](#-license)
-- 
+
 ## 📋 MÔ TẢ DỰ ÁN  
 
 Hệ thống quản lý siêu thị là một ứng dụng console được phát triển bằng C++, cung cấp giải pháp toàn diện cho việc quản lý các hoạt động kinh doanh bán lẻ. Dự án áp dụng các nguyên lý lập trình hướng đối tượng (OOP) với kiến trúc class rõ ràng, hệ thống kế thừa đa cấp và quản lý dữ liệu persistent thông qua file CSV.
